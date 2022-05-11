@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Rcciit portal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                width: 40%;
+                border: 1px solid black;
+                margin: auto;
+                padding: 20px;
+                font-size: 20px;
+            }
+            #myform table td tr input{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>SignUp form</h1>
+            <form id="myform" action="RegistrationServlet" method="post">
+                <table>
+                    <tr>
+                        <td>Enter your name:</td>
+                        <td> <input type="text" name="user_name" placeholder="enter here"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Enter your password:</td>
+                        <td> <input type="password" name="user_name" placeholder="enter here"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Enter your Email:</td>
+                        <td> <input type="email" name="user_name" placeholder="enter here"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Select Gender</td>
+                        <td><input type="radio" name="user_name" value="Male" > Male &nbsp; &nbsp; <input type="radio" name="user_name" value="Female"> Female</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Select your Profession
+                        </td>
+                        <td>
+                            <select name="user_course">
+                                <option value="Student"> Student</option>
+                                <option value="Techer"> Teacher</option>
+                               
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td style="text-align: right">
+                            <input type="checkbox" value="checked" name="condition">
+                        </td>
+                        <td>Agree Terms and conditions</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <button type="submit">Register</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table> 
+                
+            </form>
+            
+        </div>
+    </body>
+</html>
