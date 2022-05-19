@@ -24,7 +24,7 @@
     <div class="container">
          <h2>STUDENTS CLASS TIMING DETAILS</h2>
            <p>This is Students Details by class time you can find class time here.</p>
-             <table class="table">
+             <table class="table">          
             <thead>
              <tr>
               <th>ID</th>
